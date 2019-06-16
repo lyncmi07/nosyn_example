@@ -1,0 +1,22 @@
+native import standard.internal.iod;
+
+native Nothing ndwriteln(Int a);
+native Nothing ndwriteln(Double a);
+native Nothing ndwrite(Int a);
+native Nothing ndwrite(Double a);
+
+Nothing writeln(Int a) {
+    ndwriteln(a);
+};
+
+Nothing writeln(Double a) {
+    ndwriteln(a);
+};
+
+Nothing write(Int a) {
+    ndwrite(a);
+};
+
+Nothing write(Double a) {
+    ndwrite(a);
+};

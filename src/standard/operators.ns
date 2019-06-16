@@ -1,0 +1,43 @@
+native import standard.internal.operatorsd;
+
+native Int add(Int a, Int b);
+native Int subtract(Int a, Int b);
+native Int divide(Int a, Int b);
+native Int multiply(Int a, Int b);
+
+native Double add(Double a, Double b);
+native Double subtract(Double a, Double b);
+native Double divide(Double a, Double b);
+native Double multiply(Double a, Double b);
+
+Int infix_+_(Int a, Int b) {
+    add(a, b);
+};
+
+Int infix_-_(Int a, Int b) {
+    subtract(a, b);
+};
+
+Int infix_/_(Int a, Int b) {
+    divide(a, b);
+};
+
+Int infix_*_(Int a, Int b) {
+    multiply(a, b);
+};
+
+Double infix_+_(Double a, Double b) {
+    add(a, b);
+};
+
+Double infix_-_(Double a, Double b) {
+    subtract(a, b);
+};
+
+Double infix_/_(Double a, Double b) {
+    divide(a, b);
+};
+
+Double infix_*_(Double a, Double b) {
+    multiply(a, b);
+};

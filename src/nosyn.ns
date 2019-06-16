@@ -1,0 +1,12 @@
+import standard.io;
+import standard.operators;
+import standard.math;
+
+Int main() {
+    writeln(10);
+    writeln(10+10);
+    writeln(20-45);
+    writeln(45.234 / 24.56);
+    writeln(4!);
+    0;
+};
